@@ -1,0 +1,226 @@
+:root {
+  --logo-studio-color: #000000;
+  --bg-prime-color: #ffffff;
+  --bg-second-color: #f5f4fa;
+  --text-prime-color: #757575;
+  --text-second-color: #212121;
+  --text-accent-color: #2196f3;
+  --botton-prime-color: #f5f4fa;
+  --border-color: #eeeeee;
+  --link-footer-color: rgba(255, 255, 255, 0.6);
+  --hero-footer-color: #2f303a;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: var(--body-prime-color);
+  color: var(--text-prime-color);
+}
+
+.list {
+  list-style: none;
+}
+/* .link {
+  text-decoration: none;
+} */
+
+/* ========== HEADER======= */
+/* ----  СТИЛЬ ЛОГОТИПА HEADR И FOOTER   --- */
+.logo-top,
+.logo-bоttom {
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  /* --- ЦВЕТ ЛОГОТИПА HEADER  --- */
+  color: var(--logo-studio-color);
+}
+/* -- ЦВЕТОВОЙ АКЦЕНТ ЛОГОТИПА HEADER И FOOTER -- */
+.accent {
+  color: var(--text-accent-color);
+}
+
+/* ====ГЛАВНАЯ НАВИГАЦИЯ ==== */
+
+.site-nav .link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-second-color);
+}
+/* ---= ПОДСВЕТКА ТЕКУЩЕЙ СТРАНИЦЫ =---  */
+.site-nav .link.current {
+  color: var(--text-accent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--text-accent-color);
+}
+
+/* --- КОНТАКТЫ HEADER   --- */
+.contakt-header .link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-prime-color);
+}
+.contakt-header .link:hover,
+.contakt-header .link:focus {
+  color: var(--text-accent-color);
+}
+
+/* ===========  HEADER FIN  ====== */
+
+/* ===  MAIN  === */
+/* ---  СТИЛЬ ДЛЯ HERO  --- */
+.hero-img {
+  background-color: var(--hero-footer-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--bg-prime-color);
+}
+.hero.btn {
+  font-family: inherit; /* НАСЛ-от BODY-  */
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.85;
+  /* text-align: center; */
+  letter-spacing: 0.06em;
+  color: var(--bg-prime-color);
+  background-color: var(--text-accent-color);
+  /* ---  HERO-FIN  --- */
+}
+/* ===  ДЛЯ ВСЕХ СЕКЦИЙ  === */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.title {
+  color: var(--text-second-color);
+}
+/* ===  СЕКЦИЯ ОСОБЕННОСТИ  === */
+
+.nuances-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.nuances-list .txt {
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+/* === СЕКЦИЯ ЧЕМ МЫ ЗАНИМАЕМСЯ === */
+
+/* === СЕКЦИЯ КОМАНДА === */
+.section.team {
+  background-color: var(--bg-second-color);
+}
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-list .txt {
+  font-size: 16px;
+  line-height: 1.19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* === MAIN, INDEX FIN === */
+
+/* === PORTFOLIO MAIN PAGE === */
+/* -- ЗАГОЛОВОК ПОРТФОЛИО, HIDDEN -- */
+/* --- КНОПКИ ПОРТФОЛИО  --- */
+.work-list {
+}
+.btn-work {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: var(--text-second-color);
+  background-color: var(--bg-second-color);
+}
+.btn-work:hover,
+.btn-work:focus {
+  background-color: var(--text-accent-color);
+}
+/* --- ПРИМЕРЫ  РАБОТ  --- */
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.example-list .link {
+  text-decoration: none;
+}
+.example-list .txt {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--text-prime-color);
+}
+/* ===  PORTFOLIO FIN  === */
+
+/* ===  FOOTER  === */
+.footer {
+  background-color: var(--hero-footer-color);
+}
+/* --- БЕЛЫЙ ЦВЕТ ЛОГОТИПА ФУТЕРА --- */
+.logo-footer {
+  color: var(--bg-prime-color);
+}
+/* === АДРЕСС ПРОСПЕКТТ == */
+.address .text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--bg-prime-color);
+}
+/* --- АДРЕСНЫЕ ССЫЛКИ В ФУТЕРЕ  --- */
+.contact-footer .link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--link-footer-color);
+}
+.contact-footer .link:hover,
+.contact-footer .link:focus {
+  color: var(--text-accent-color);
+}
+
+/* === FOOTER FIN === */
