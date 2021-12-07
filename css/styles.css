@@ -227,8 +227,12 @@ ul {
   margin-left: auto;
   margin-right: auto; */
 }
+
 .nuances-list .item:not(:last-child) {
   margin-right: 30px;
+}
+.nuances-list .item {
+  width: 270px;
 }
 
 .nuances-title {
