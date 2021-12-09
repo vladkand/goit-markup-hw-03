@@ -54,6 +54,16 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
+/* ===  ШРИФТ h2 ДЛЯ ВСЕХ СЕКЦИЙ  === */
+.section-title {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 /* ========== HEADER======= */
 
 /* БЛОК НАВИГАЦИЯ И КОНТАКТЫ */
@@ -197,16 +207,6 @@ img {
 }
 /* ---  HERO-FIN  --- */
 
-/* ===  ШРИФТ h2 ДЛЯ ВСЕХ СЕКЦИЙ  === */
-.section-title {
-  margin-bottom: 50px;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
 .title {
   color: var(--text-second-color);
 }
